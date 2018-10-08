@@ -18,17 +18,21 @@ public class WalkOfFame {
 		r2d2.miniaturize();
 		r2d2.setSpeed(200);
 		r2d2.penDown();
-		for (int o = 0; o < 8; o++) {
-		for (int t = 0; t < 2 ; t++) {
+		r2d2.setAngle(90);
 		for (int i = 0; i < 5; i++) {
+		for (int o = 0; o < 5; o++) {
 		r2d2.penDown();
 		r2d2.turn(144);
 		r2d2.move(30);
 		}
 		r2d2.penUp();
+		r2d2.setAngle(90);
 		r2d2.move(50);
 		}
-		}
+		
+		
+		
+		
 		
 		
 
